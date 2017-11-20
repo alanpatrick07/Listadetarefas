@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context="com.todolist.tarefaz.CadTarefaActivity">
+
+
+
+    <item android:id="@+id/action_Menu_SalvarTarefa" android:title="Salvar"
+        android:orderInCategory="100" app:showAsAction="ifRoom|withText"
+        />
+
+    <item android:id="@+id/action_Menu_SairTarefa" android:title="Sair"
+        android:orderInCategory="100" app:showAsAction="never"
+        />
+
+</menu>

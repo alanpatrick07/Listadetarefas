@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.alan.listadetarefas">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/smartlista"
+        android:label="Smart Lista"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name="com.example.alan.listadetarefas.util.MainActivity"
+            android:label="Smart Lista"></activity>
+        <activity
+            android:name="com.example.alan.listadetarefas.util.LoginActivity"
+            android:label="Smart Lista">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity
+            android:name="com.example.alan.listadetarefas.util.CadUsuarioActivity"
+            android:label="Cadastro">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alan.listadetarefas.util.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.example.alan.listadetarefas.util.ListUsuariosActivity"
+            android:label="Lista de Usuários">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alan.listadetarefas.util.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.example.alan.listadetarefas.util.CadTarefaActivity"
+            android:label="Nova Tarefa">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alan.listadetarefas.util.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.example.alan.listadetarefas.util.ListTarefaActivity"
+            android:label="Tarefas">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alan.listadetarefas.util.MainActivity" />
+        </activity>
+    </application>
+
+</manifest>

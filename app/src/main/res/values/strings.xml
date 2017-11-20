@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Smart Lista</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">LoginActivity</string>
+
+    <string name="banner_ad_unit_id">ca-app-pub-7961603748883633/1519260306</string>
+
+    <!-- LOGIN -->
+    <string name="login_txtUsuario">Usuário:</string>
+    <string name="login_txtSenha">Senha:</string>
+    <string name="login_BtnEntrar">Entrar</string>
+    <string name="login_ckbConectdo">Manter Conectado?</string>
+    <!-- Validacoes -->
+    <string name="Login_valUsuario">Usuário Obrigatório</string>
+    <string name="Login_valSenha">Senha Obrigatória</string>
+
+    <!--Mensagens-->
+    <string name="Login_valErro">Login ou senha inválidos!</string>
+    <string name="title_activity_cad_usuario">CadUsuarioActivity</string>
+    <string name="title_activity_list_usuarios">ListUsuariosActivity</string>
+    <string name="title_activity_cad_tarefa">CadTarefaActivity</string>
+    <string name="title_activity_list_tarefa">ListTarefaActivity</string>
+</resources>

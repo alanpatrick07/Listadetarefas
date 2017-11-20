@@ -1,0 +1,40 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    >
+
+    <item
+        android:id="@+id/cadastroUsuarios"
+        android:orderInCategory="100"
+        android:title="Cadastro"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/ListaUsuarios"
+        android:orderInCategory="100"
+        android:title="Usuarios"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/cadastroTarefa"
+        android:orderInCategory="100"
+        android:title="Nova Tarefa"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/ListaTarefa"
+        android:orderInCategory="100"
+        android:title="Tarefas"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/ListaLogout"
+        android:orderInCategory="100"
+        android:title="Logout"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/ListaSair"
+        android:orderInCategory="100"
+        android:title="Sair"
+        app:showAsAction="never" />
+
+</menu>
